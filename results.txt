@@ -1,6 +1,6 @@
 // Static 
 
-GET /static/images/gudetama.png HTTP/1.1 //Works 
+GET /static/images/gudetama.png HTTP/1.1
 -------------------
 HTTP/1.1 200 OK
 Content-Type: application/octet-stream
@@ -10,7 +10,7 @@ Content-Length: 95859
 
 
 
-GET /static/docs/sample.txt HTTP/1.1 //Works 
+GET /static/docs/sample.txt HTTP/1.1
 -------------------
 HTTP/1.1 200 OK
 Content-Type: application/octet-stream
